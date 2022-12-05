@@ -13,7 +13,7 @@ import Projects from "./Projects";
 
 const App = () => {
     return (
-        <div>
+        <>
             <Header />
             <LeftSideBar />
             <RightSideBar /> 
@@ -25,7 +25,7 @@ const App = () => {
                 <Contact />
                                          
             </div>
-        </div>        
+        </>        
     );
 }
 
