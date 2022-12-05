@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Spacer from "./Spacer";
 
-const Home = () => {
+const Greeting = () => {
     return(        
             <section className="landing" id="home"> 
                 <Spacer />            
@@ -17,4 +17,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default Greeting;
