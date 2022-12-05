@@ -1,0 +1,348 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+ul{
+    list-style: none;
+   
+}
+
+ a:hover{
+    text-decoration: none!important;
+}
+section{
+    margin: 0px auto;
+    padding: 100px 0px;
+    max-width: 1000px;
+}
+
+.main-container{
+    width: 100%;
+    background-color: #09182f;
+    counter-reset: x;
+}
+
+
+
+.menu{
+    background-color: #09182f;
+    height: 95px;
+    counter-reset: y;
+    
+}
+.menu a{
+    color: #ccd6f6 !important;
+}
+.menu a:hover{
+    color: #64ffda !important
+}
+.btnStyle{
+    border: 1px solid #64ffda !important;
+    color: #64ffda !important;
+    background: transparent !important;
+}
+.btnStyle:hover{
+    background-color: #64ffda47 !important;
+}
+.nav-numbering:before{
+    position: relative;
+    bottom: 4px;
+    counter-increment: y 1;
+    content: "0" counter(y) ".";
+    margin-right: 10px;
+    color: #64ffda;
+    font-family: Calibre;
+    font-size: 10px;
+    font-weight: 400;
+}
+.home-wrapper{    
+    width: 100%;    
+    padding: 144px 20px 0px 20px;
+}
+.big-heading{
+    font-size: clamp(40px, 8vw, 80px);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8892b0;
+}
+.secondaryHeading{
+    color: #ccd6f6;
+}
+
+.box {
+    padding: 0px !important;
+    margin: 0px !important;
+    color: #343a40
+}
+.box h3{
+    color: #64ffda;
+}
+.bodyColor{
+    color: #8892b0;
+    max-width: 540px;
+}
+
+.spacer{
+    height: 200px;
+    margin-top:25px;
+}
+.bio{
+    margin: 0 auto;
+    padding: 100px 0;
+    max-width: 900px;
+}
+
+.bio p{
+    color: #8892b0;
+}
+
+.divider{
+    width: 425px;
+    margin: 13px 0 0 25px;
+}
+.blur-divider{   
+    background-color: #64ffda;
+}
+
+.right-side-bar {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: #ccd6f6;
+}
+.styled-email{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+.styled-email a{
+    margin: 20px auto;
+   
+    font-family: Calibre;
+    color: #64ffda;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.3em;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+.styled-email::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: #ccd6f6;
+}
+
+.left-side-bar{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: #ccd6f6;
+}
+
+.numbered-heading::before {
+    position: relative;
+    bottom: 4px;
+    counter-increment: x 1;
+    content: "0" counter(x) ".";
+    margin-right: 10px;
+    color: #64ffda;
+    font-family: var(--font-mono);
+    font-size: clamp(16px,3vw,20px);
+    font-weight: 400;
+}
+.numbered-heading{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: clamp(26px,5vw,32px);
+    white-space: nowrap;
+}
+.numbered-heading::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -5px;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #233554;
+}
+.social-list{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.social-list li{
+    padding: 15px 0;
+}
+.social-list li a{
+    padding: 10px;
+    color: #64ffda;
+}
+.social-list::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color:#ccd6f6;
+}
+.skills-list li::before{
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: #64ffda;
+    font-size: 14px;
+    line-height: 22px;
+}
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+}
+
+.skills-list li{
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: 13px;
+    color: #8892b0;
+}
+
+.jobs-section{
+    max-width: 700px;
+}
+.job-duties li::before{
+    content: "▹";
+    position: absolute;
+    left: 35px;
+    color: #64ffda;
+    font-size: 14px;
+    line-height: 19px;
+}
+.job-duties{
+    color: #8892b0;
+}
+.job-duties li{
+    margin-bottom: 15px;
+}
+.jobs a{
+    color: #8892b0;
+    margin-bottom: 25px;
+}
+
+.jobs h5{
+    color: #ccd6f6;
+}
+
+.jobs a:hover{
+    color: #64ffda;
+    text-decoration: none;
+}
+.company{
+    color: #64ffda;
+}
+
+.projects{
+    .featured-project{
+        position: relative;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(12, 1fr);
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .project-content{
+        position: relative;
+        grid-area: 1 / 1 / -1 / 7;
+        color:#ccd6f6;
+    }
+    .project-overline{
+        color: #64ffda;
+        margin: 10px 0px;    
+        font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    .project-title{    
+        color:#ccd6f6;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .home-wrapper {
+      padding-top: 100px;
+    }
+    .spacer{
+        height: 75px;
+    }
+    .divider {
+        width: 200px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    
+    .divider {
+        width: 100px;
+    }
+    .sticky-top{
+        position: relative;
+    }
+    .mobile-menu{
+        background: #16253c;
+        width: 261px;
+        position: relative;        
+        left: 96px;
+        padding: 0px 20px;
+        height: 100vh;
+    }
+    .right-side-bar, .left-side-bar{
+        display: none;
+    }
+    section{
+        max-width: 336px!important;
+    }
+    .numbered-heading::after{
+        width:150px;
+    }
+    .featured-project{
+        grid-template-columns: none;
+    }
+    .project-tech-list li{
+        font-size: 10px;
+    }
+    }
+  
+  

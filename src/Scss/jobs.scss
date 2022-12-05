@@ -1,0 +1,46 @@
+.jobs{
+   
+    a{
+        color: $textSecondary;
+        margin-bottom: 25px;
+    }
+    a:hover{
+        color: $btnPrimary;
+        text-decoration: none;
+    }
+    h5{
+        color: $textPrimary;
+    }
+    .job-duties{
+        color: $textSecondary;
+        
+        li{
+            margin-bottom: 15px;
+            padding-left:0px;
+        }
+        .company{
+            color: $btnPrimary;
+        }
+    }
+}
+
+
+@media  screen and (min-width:540px) {
+    .jobs{
+        .job-duties{
+            color: $textSecondary;
+            
+            li::before{
+                content: "▹";
+                position: absolute;
+                left: 21px;
+                color: $btnPrimary;
+                font-size: 14px;
+                line-height: 24px;
+            }
+            li{
+                padding-left: 30px !important;
+            }
+        }
+    }
+ }

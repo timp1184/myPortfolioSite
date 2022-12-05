@@ -1,0 +1,37 @@
+
+.menu{
+    background-color: $bgPrimary;
+    height: 95px;
+    counter-reset: y;
+    a{
+        color: $textPrimary !important;
+    }
+    a:hover{
+        color: $btnPrimary !important;
+    }
+    .nav-numbering:before{
+        position: relative;
+        bottom: 4px;
+        counter-increment: y 1;
+        content: "0" counter(y) ".";
+        margin-right: 10px;
+        color: $btnPrimary;
+        font-family: Calibre;
+        font-size: 10px;
+        font-weight: 400;
+    }    
+
+}
+@media screen and (max-width:986px) {
+    .showMobile{
+        height: 100vh;        
+        margin-top:25px;
+        background-color: $menuOverlay;
+        a {
+            padding: 20px 0px;
+        }
+    }
+}
+
+
+

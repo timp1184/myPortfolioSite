@@ -1,0 +1,22 @@
+.landing{  
+    
+    h1{
+        font-size: clamp(40px, 8vw, 80px);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    h3{
+        color: $btnPrimary;
+    }
+    p{
+        color: $textSecondary;
+        max-width: 540px
+    }  
+    
+}
+
+// @media screen and (max-width: 400px) {
+//     .landing{
+//         max-width: 300px;
+//     }
+
+// }
