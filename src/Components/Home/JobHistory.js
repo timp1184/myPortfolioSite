@@ -1,6 +1,6 @@
-import Spacer from "./Spacer";
+import Spacer from "../Helpers/Spacer";
 
-const JobHistory = () =>{
+export default () =>{
     return(
         <section className="jobs-section jobs" id="experience">
             <Spacer />
@@ -72,5 +72,3 @@ const JobHistory = () =>{
         </section>
         )
 }
-
-export default JobHistory;

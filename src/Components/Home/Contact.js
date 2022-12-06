@@ -1,4 +1,4 @@
-import Spacer from "./Spacer";
+import Spacer from "../Helpers/Spacer";
 const Contact = () =>{
     return(
         <section className="Contact" id="contact">

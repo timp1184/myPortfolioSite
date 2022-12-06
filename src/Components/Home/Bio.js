@@ -1,8 +1,8 @@
-import Spacer from "./Spacer";
+import Spacer from "../Helpers/Spacer";
 import Skills from "./Skills";
-import Logo from "./ProfilePic.jpg";
+import Logo from "../../Images/ProfilePic.jpg";
 
-const Bio = () =>{
+export default () =>{
     return(        
             <section className="bio" id="about">
                 <Spacer />
@@ -37,4 +37,3 @@ const Bio = () =>{
     );
 }
 
-export default Bio;

@@ -1,9 +1,9 @@
 
 import { Github } from 'react-bootstrap-icons';
-import Spacer from "./Spacer";
-import CodeSnippet from "./codeSnippet1.png";
+import Spacer from "../Helpers/Spacer";
+import CodeSnippet from "../../Images/codeSnippet1.png";
 
-const Projects = () => {
+export default () => {
     const featuredProject = [
         {
             "project-title":"Email Generator",
@@ -67,5 +67,3 @@ const Projects = () => {
         </section>
     )
 }
-
-export default Projects;
