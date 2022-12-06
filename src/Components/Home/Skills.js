@@ -1,6 +1,6 @@
 
 
-const Skills = () =>{
+export default () =>{
     return(        
             <div className="row mx-0">
                 <div className="col">
@@ -17,5 +17,3 @@ const Skills = () =>{
         
     )
 }
-
-export default Skills;

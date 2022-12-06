@@ -1,7 +1,5 @@
-const Spacer = () =>{
+export default () =>{
     return(
         <div className="spacer"></div>
     );
 }
-
-export default Spacer;

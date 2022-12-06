@@ -1,6 +1,6 @@
 import { Github, Linkedin, Instagram, Twitter } from 'react-bootstrap-icons';
 
-const LefttSideBar = ()=>{
+export default ()=>{
     return(
         <div orientation="left" className="left-side-bar d-none d-lg-flex">
             <ul className="social-list">
@@ -13,5 +13,4 @@ const LefttSideBar = ()=>{
     )
 }
 
-export default LefttSideBar;
 

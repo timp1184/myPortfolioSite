@@ -1,5 +1,6 @@
 import Spacer from "../Helpers/Spacer";
-const Contact = () =>{
+
+export default () =>{
     return(
         <section className="Contact" id="contact">
              <Spacer />
@@ -17,5 +18,3 @@ const Contact = () =>{
         </section>
     )
 }
-
-export default Contact;

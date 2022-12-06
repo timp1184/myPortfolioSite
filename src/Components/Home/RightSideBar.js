@@ -1,6 +1,6 @@
 
 
-const RightSideBar = ()=>{
+export default ()=>{
     return(
         <div orientation="right" className="right-side-bar">
             <div className="styled-email d-none d-lg-flex">
@@ -9,5 +9,3 @@ const RightSideBar = ()=>{
         </div>
     )
 }
-
-export default RightSideBar;
