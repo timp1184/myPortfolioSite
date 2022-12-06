@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Scss/style.scss';
 import Header from "./Header";
@@ -8,7 +9,11 @@ const App = () => {
     return (
         <>
             <Header />
-            <Home />
+            <BrowserRouter>
+                <Routes>                    
+                    <Route exact path="/" element={<Home />} />
+                </Routes>
+            </BrowserRouter>
             
         </>        
     );
